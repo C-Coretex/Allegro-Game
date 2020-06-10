@@ -1,0 +1,550 @@
+# depslib dependency file v1.0
+1359877490 source:c:\vcode\progmeistars\cpp\2\testallegro\main.cpp
+	<iostream>
+	"AllegroUtil.hpp"
+	<windows.h>
+	<cstdlib>
+	<cstdio>
+
+1359847301 source:c:\vcode\progmeistars\cpp\2\testallegro\allegroutil.cpp
+	"AllegroUtil.hpp"
+	<iostream>
+
+1359845819 c:\vcode\progmeistars\cpp\2\testallegro\allegroutil.hpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+
+1359850901 source:c:\vcode\progmeistars\cpp\3\testallegro\allegroutil.cpp
+	"AllegroUtil.hpp"
+	<iostream>
+
+1359849419 c:\vcode\progmeistars\cpp\3\testallegro\allegroutil.hpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+
+1360446461 source:c:\vcode\progmeistars\cpp\3\testallegro\main.cpp
+	<iostream>
+	"AllegroUtil.hpp"
+	<windows.h>
+	<cstdlib>
+	<cstdio>
+
+1359854500 source:c:\users\valer\desktop\programming\c++\paint\testallegro\allegroutil.cpp
+	"AllegroUtil.hpp"
+	<iostream>
+
+1591259705 c:\users\valer\desktop\programming\c++\paint\testallegro\allegroutil.hpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+
+1590666656 c:\program files\codeblocks20\mingw\include\allegro5\allegro.h
+	"allegro5/base.h"
+	"allegro5/altime.h"
+	"allegro5/bitmap.h"
+	"allegro5/bitmap_draw.h"
+	"allegro5/bitmap_io.h"
+	"allegro5/bitmap_lock.h"
+	"allegro5/blender.h"
+	"allegro5/clipboard.h"
+	"allegro5/color.h"
+	"allegro5/config.h"
+	"allegro5/cpu.h"
+	"allegro5/debug.h"
+	"allegro5/display.h"
+	"allegro5/drawing.h"
+	"allegro5/error.h"
+	"allegro5/events.h"
+	"allegro5/file.h"
+	"allegro5/fixed.h"
+	"allegro5/fmaths.h"
+	"allegro5/fshook.h"
+	"allegro5/fullscreen_mode.h"
+	"allegro5/haptic.h"
+	"allegro5/joystick.h"
+	"allegro5/keyboard.h"
+	"allegro5/memory.h"
+	"allegro5/monitor.h"
+	"allegro5/mouse.h"
+	"allegro5/mouse_cursor.h"
+	"allegro5/path.h"
+	"allegro5/render_state.h"
+	"allegro5/shader.h"
+	"allegro5/system.h"
+	"allegro5/threads.h"
+	"allegro5/timer.h"
+	"allegro5/tls.h"
+	"allegro5/touch_input.h"
+	"allegro5/transformations.h"
+	"allegro5/utf8.h"
+	"allegro5/alcompat.h"
+
+1590666656 c:\program files\codeblocks20\mingw\include\allegro5\base.h
+	<errno.h>
+	<limits.h>
+	<limits.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<sys/types.h>
+	<fortify/fortify.h>
+	<dmalloc.h>
+	"allegro5/internal/alconfig.h"
+
+1590666658 c:\program files\codeblocks20\mingw\include\allegro5\internal\alconfig.h
+	"allegro5/platform/alplatf.h"
+	"allegro5/platform/alwatcom.h"
+	"allegro5/platform/almngw32.h"
+	"allegro5/platform/albcc32.h"
+	"allegro5/platform/almsvc.h"
+	"allegro5/platform/aliphonecfg.h"
+	"allegro5/platform/alosxcfg.h"
+	"allegro5/platform/alandroidcfg.h"
+	"allegro5/platform/alraspberrypicfg.h"
+	"allegro5/platform/alucfg.h"
+	"allegro5/platform/allegro_sdl_config.h"
+	"allegro5/platform/astdint.h"
+	"allegro5/platform/astdbool.h"
+
+1590666766 c:\program files\codeblocks20\mingw\include\allegro5\platform\alplatf.h
+
+1590666658 c:\program files\codeblocks20\mingw\include\allegro5\platform\alwatcom.h
+	<io.h>
+	<i86.h>
+	<conio.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1590666658 c:\program files\codeblocks20\mingw\include\allegro5\platform\almngw32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1590666658 c:\program files\codeblocks20\mingw\include\allegro5\platform\albcc32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1590666656 c:\program files\codeblocks20\mingw\include\allegro5\platform\almsvc.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1590666658 c:\program files\codeblocks20\mingw\include\allegro5\platform\aliphonecfg.h
+	<fcntl.h>
+	<unistd.h>
+
+1590666658 c:\program files\codeblocks20\mingw\include\allegro5\platform\alosxcfg.h
+	"allegro5/platform/alplatf.h"
+
+1590666658 c:\program files\codeblocks20\mingw\include\allegro5\platform\alandroidcfg.h
+
+1590666656 c:\program files\codeblocks20\mingw\include\allegro5\platform\alraspberrypicfg.h
+	<fcntl.h>
+	<unistd.h>
+	<sys/types.h>
+
+1590666658 c:\program files\codeblocks20\mingw\include\allegro5\platform\alucfg.h
+	<fcntl.h>
+	<unistd.h>
+	"alunix.h"
+	"allegro5/platform/alplatf.h"
+
+1590666658 c:\program files\codeblocks20\mingw\include\allegro5\platform\alunix.h
+
+1590666656 c:\program files\codeblocks20\mingw\include\allegro5\platform\allegro_sdl_config.h
+	<fcntl.h>
+	<unistd.h>
+
+1590666658 c:\program files\codeblocks20\mingw\include\allegro5\platform\astdint.h
+	<inttypes.h>
+	<stdint.h>
+
+1590666658 c:\program files\codeblocks20\mingw\include\allegro5\platform\astdbool.h
+	<stdbool.h>
+
+1590666656 c:\program files\codeblocks20\mingw\include\allegro5\altime.h
+	"allegro5/base.h"
+
+1590666656 c:\program files\codeblocks20\mingw\include\allegro5\bitmap.h
+	"allegro5/color.h"
+
+1590666656 c:\program files\codeblocks20\mingw\include\allegro5\color.h
+	"allegro5/base.h"
+
+1590666656 c:\program files\codeblocks20\mingw\include\allegro5\bitmap_draw.h
+	"allegro5/bitmap.h"
+
+1590666656 c:\program files\codeblocks20\mingw\include\allegro5\bitmap_io.h
+	"allegro5/bitmap.h"
+	"allegro5/file.h"
+
+1590666656 c:\program files\codeblocks20\mingw\include\allegro5\file.h
+	"allegro5/base.h"
+	"allegro5/path.h"
+	"allegro5/utf8.h"
+
+1590666656 c:\program files\codeblocks20\mingw\include\allegro5\path.h
+	"allegro5/base.h"
+
+1590666656 c:\program files\codeblocks20\mingw\include\allegro5\utf8.h
+	"allegro5/base.h"
+
+1590666656 c:\program files\codeblocks20\mingw\include\allegro5\bitmap_lock.h
+	"allegro5/bitmap.h"
+
+1590666656 c:\program files\codeblocks20\mingw\include\allegro5\blender.h
+	"allegro5/base.h"
+	"allegro5/color.h"
+
+1590666656 c:\program files\codeblocks20\mingw\include\allegro5\clipboard.h
+	"allegro5/base.h"
+	"allegro5/display.h"
+	"allegro5/utf8.h"
+
+1590666656 c:\program files\codeblocks20\mingw\include\allegro5\display.h
+	"allegro5/bitmap.h"
+	"allegro5/color.h"
+	"allegro5/events.h"
+
+1590666656 c:\program files\codeblocks20\mingw\include\allegro5\events.h
+	"allegro5/altime.h"
+
+1590666656 c:\program files\codeblocks20\mingw\include\allegro5\config.h
+	"allegro5/file.h"
+
+1590666656 c:\program files\codeblocks20\mingw\include\allegro5\cpu.h
+	"allegro5/base.h"
+
+1590666656 c:\program files\codeblocks20\mingw\include\allegro5\debug.h
+	<assert.h>
+	"allegro5/base.h"
+
+1590666656 c:\program files\codeblocks20\mingw\include\allegro5\drawing.h
+	"allegro5/color.h"
+
+1590666656 c:\program files\codeblocks20\mingw\include\allegro5\error.h
+	"allegro5/base.h"
+
+1590666656 c:\program files\codeblocks20\mingw\include\allegro5\fixed.h
+	"allegro5/base.h"
+
+1590666656 c:\program files\codeblocks20\mingw\include\allegro5\fmaths.h
+	"allegro5/base.h"
+	"allegro5/fixed.h"
+	"allegro5/inline/fmaths.inl"
+
+1590666656 c:\program files\codeblocks20\mingw\include\allegro5\inline\fmaths.inl
+	"allegro5/error.h"
+
+1590666656 c:\program files\codeblocks20\mingw\include\allegro5\fshook.h
+	"allegro5/base.h"
+	"allegro5/file.h"
+	"allegro5/path.h"
+	<sys/types.h>
+
+1590666656 c:\program files\codeblocks20\mingw\include\allegro5\fullscreen_mode.h
+	"allegro5/base.h"
+
+1590666656 c:\program files\codeblocks20\mingw\include\allegro5\haptic.h
+	"allegro5/base.h"
+	"allegro5/display.h"
+	"allegro5/events.h"
+	"allegro5/joystick.h"
+	"allegro5/keyboard.h"
+	"allegro5/mouse.h"
+	"allegro5/touch_input.h"
+
+1590666656 c:\program files\codeblocks20\mingw\include\allegro5\joystick.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1590666656 c:\program files\codeblocks20\mingw\include\allegro5\keyboard.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+	"allegro5/keycodes.h"
+
+1590666656 c:\program files\codeblocks20\mingw\include\allegro5\keycodes.h
+
+1590666656 c:\program files\codeblocks20\mingw\include\allegro5\mouse.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1590666656 c:\program files\codeblocks20\mingw\include\allegro5\touch_input.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1590666656 c:\program files\codeblocks20\mingw\include\allegro5\memory.h
+	"allegro5/base.h"
+
+1590666656 c:\program files\codeblocks20\mingw\include\allegro5\monitor.h
+	"allegro5/base.h"
+
+1590666656 c:\program files\codeblocks20\mingw\include\allegro5\mouse_cursor.h
+	"allegro5/base.h"
+
+1590666656 c:\program files\codeblocks20\mingw\include\allegro5\render_state.h
+	"allegro5/base.h"
+
+1590666656 c:\program files\codeblocks20\mingw\include\allegro5\shader.h
+	"allegro5/base.h"
+	"allegro5/transformations.h"
+
+1590666656 c:\program files\codeblocks20\mingw\include\allegro5\transformations.h
+	"allegro5/display.h"
+
+1590666656 c:\program files\codeblocks20\mingw\include\allegro5\system.h
+	"allegro5/config.h"
+	"allegro5/path.h"
+
+1590666656 c:\program files\codeblocks20\mingw\include\allegro5\threads.h
+	"allegro5/altime.h"
+
+1590666656 c:\program files\codeblocks20\mingw\include\allegro5\timer.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1590666656 c:\program files\codeblocks20\mingw\include\allegro5\tls.h
+	"allegro5/base.h"
+
+1590666656 c:\program files\codeblocks20\mingw\include\allegro5\alcompat.h
+
+1590666680 c:\program files\codeblocks20\mingw\include\allegro5\allegro_primitives.h
+	<allegro5/allegro.h>
+
+1591778607 source:c:\users\valer\desktop\programming\c++\paint\testallegro\main.cpp
+	<iostream>
+	"AlegroApp.h"
+
+1591208528 source:c:\users\valer\desktop\programming\c++\paint\testallegro\allegrobase.cpp
+	"AllegroBase.hpp"
+	<iostream>
+	"windows.h"
+	<allegro5/allegro_windows.h>
+
+1591208506 c:\users\valer\desktop\programming\c++\paint\testallegro\allegrobase.hpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+
+1591346102 c:\users\valer\desktop\programming\c++\paint\testallegro\include\figure.h
+
+1591346216 source:c:\users\valer\desktop\programming\c++\paint\testallegro\src\figure.cpp
+	"Figure.h"
+	<stdlib.h>
+	<time.h>
+
+1591348190 source:c:\users\valer\desktop\programming\c++\paint\testallegro\figure.cpp
+	"Figure.h"
+	<stdlib.h>
+
+1591780192 c:\users\valer\desktop\programming\c++\paint\testallegro\figure.h
+	"ISerializable.h"
+
+1591781787 source:c:\users\valer\desktop\programming\c++\paint\testallegro\circle.cpp
+	"Circle.h"
+	"Figure.h"
+	<stdlib.h>
+	"AllegroBase.hpp"
+
+1591779819 c:\users\valer\desktop\programming\c++\paint\testallegro\circle.h
+	"Figure.h"
+	"ISerializable.h"
+
+1591782049 source:c:\users\valer\desktop\programming\c++\paint\testallegro\square.cpp
+	"Square.h"
+	"Figure.h"
+	"AllegroBase.hpp"
+	<iostream>
+
+1591777911 c:\users\valer\desktop\programming\c++\paint\testallegro\square.h
+	"Figure.h"
+	"ISerializable.h"
+
+1591783405 source:c:\users\valer\desktop\programming\c++\paint\testallegro\screensaver.cpp
+	"ScreenSaver.h"
+	"Figure.h"
+	"AllegroBase.hpp"
+	"AlegroApp.h"
+	<list>
+
+1591783398 c:\users\valer\desktop\programming\c++\paint\testallegro\screensaver.h
+	"Figure.h"
+	<list>
+
+1591349922 source:c:\users\valer\desktop\programming\c++\paint\testallegro\list.cpp
+	"List.h"
+
+1591349915 c:\users\valer\desktop\programming\c++\paint\testallegro\list.h
+
+1591350380 source:c:\users\valer\desktop\programming\c++\paint\testallegro\sizeablefigure.cpp
+	"SizeableFigure.h"
+
+1591351588 c:\users\valer\desktop\programming\c++\paint\testallegro\sizeablefigure.h
+
+1591606760 source:c:\users\valer\desktop\programming\c++\paint\testallegro\sizeablesquare.cpp
+	"SizeableSquare.h"
+	"Square.h"
+
+1591351555 c:\users\valer\desktop\programming\c++\paint\testallegro\sizeablesquare.h
+	"SizeableFigure.h"
+	"Square.h"
+
+1590666656 c:\program files\codeblocks20\mingw\include\allegro5\allegro_windows.h
+	<windows.h>
+
+1591688065 source:c:\users\valer\desktop\programming\c++\paint\testallegro\controlledsquare.cpp
+	"ControlledSquare.h"
+	"Square.h"
+	"AllegroBase.hpp"
+
+1591778013 c:\users\valer\desktop\programming\c++\paint\testallegro\controlledsquare.h
+	"Square.h"
+
+1591781613 source:c:\users\valer\desktop\programming\c++\paint\testallegro\figurefactory.cpp
+	"FigureFactory.h"
+	"Figure.h"
+	"Circle.h"
+	"Square.h"
+	<cstdlib>
+	<iostream>
+
+1591780779 c:\users\valer\desktop\programming\c++\paint\testallegro\figurefactory.h
+	"Figure.h"
+
+1591778575 c:\users\valer\desktop\programming\c++\paint\testallegro\alegroapp.h
+	"AllegroBase.hpp"
+	"ControlledSquare.h"
+
+1591783337 source:c:\users\valer\desktop\programming\c++\paint\testallegro\alegroapp.cpp
+	"AlegroApp.h"
+	"AllegroBase.hpp"
+	"ScreenSaver.h"
+	"SizeableSquare.h"
+	"FigureFactory.h"
+	<iostream>
+	<list>
+
+1591777628 source:c:\users\valer\desktop\programming\c++\paint\testallegro\iserializable.cpp
+	"ISerializable.h"
+
+1591777731 c:\users\valer\desktop\programming\c++\paint\testallegro\iserializable.h
+	<string>
+
+1591783337 source:c:\users\valer\desktop\gitsave\allegro-game\alegroapp.cpp
+	"AlegroApp.h"
+	"AllegroBase.hpp"
+	"ScreenSaver.h"
+	"SizeableSquare.h"
+	"FigureFactory.h"
+	<iostream>
+	<list>
+
+1591778575 c:\users\valer\desktop\gitsave\allegro-game\alegroapp.h
+	"AllegroBase.hpp"
+	"ControlledSquare.h"
+
+1591208506 c:\users\valer\desktop\gitsave\allegro-game\allegrobase.hpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+
+1591778013 c:\users\valer\desktop\gitsave\allegro-game\controlledsquare.h
+	"Square.h"
+
+1591777911 c:\users\valer\desktop\gitsave\allegro-game\square.h
+	"Figure.h"
+	"ISerializable.h"
+
+1591780192 c:\users\valer\desktop\gitsave\allegro-game\figure.h
+	"ISerializable.h"
+
+1591777731 c:\users\valer\desktop\gitsave\allegro-game\iserializable.h
+	<string>
+
+1591783398 c:\users\valer\desktop\gitsave\allegro-game\screensaver.h
+	"Figure.h"
+	<list>
+
+1591351555 c:\users\valer\desktop\gitsave\allegro-game\sizeablesquare.h
+	"SizeableFigure.h"
+	"Square.h"
+
+1591351588 c:\users\valer\desktop\gitsave\allegro-game\sizeablefigure.h
+
+1591780779 c:\users\valer\desktop\gitsave\allegro-game\figurefactory.h
+	"Figure.h"
+
+1591208528 source:c:\users\valer\desktop\gitsave\allegro-game\allegrobase.cpp
+	"AllegroBase.hpp"
+	<iostream>
+	"windows.h"
+	<allegro5/allegro_windows.h>
+
+1359854500 source:c:\users\valer\desktop\gitsave\allegro-game\allegroutil.cpp
+	"AllegroUtil.hpp"
+	<iostream>
+
+1591259705 c:\users\valer\desktop\gitsave\allegro-game\allegroutil.hpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+
+1591781787 source:c:\users\valer\desktop\gitsave\allegro-game\circle.cpp
+	"Circle.h"
+	"Figure.h"
+	<stdlib.h>
+	"AllegroBase.hpp"
+
+1591779819 c:\users\valer\desktop\gitsave\allegro-game\circle.h
+	"Figure.h"
+	"ISerializable.h"
+
+1591688065 source:c:\users\valer\desktop\gitsave\allegro-game\controlledsquare.cpp
+	"ControlledSquare.h"
+	"Square.h"
+	"AllegroBase.hpp"
+
+1591348190 source:c:\users\valer\desktop\gitsave\allegro-game\figure.cpp
+	"Figure.h"
+	<stdlib.h>
+
+1591781613 source:c:\users\valer\desktop\gitsave\allegro-game\figurefactory.cpp
+	"FigureFactory.h"
+	"Figure.h"
+	"Circle.h"
+	"Square.h"
+	<cstdlib>
+	<iostream>
+
+1591777628 source:c:\users\valer\desktop\gitsave\allegro-game\iserializable.cpp
+	"ISerializable.h"
+
+1591778607 source:c:\users\valer\desktop\gitsave\allegro-game\main.cpp
+	<iostream>
+	"AlegroApp.h"
+
+1591783405 source:c:\users\valer\desktop\gitsave\allegro-game\screensaver.cpp
+	"ScreenSaver.h"
+	"Figure.h"
+	"AllegroBase.hpp"
+	"AlegroApp.h"
+	<list>
+
+1591350380 source:c:\users\valer\desktop\gitsave\allegro-game\sizeablefigure.cpp
+	"SizeableFigure.h"
+
+1591606760 source:c:\users\valer\desktop\gitsave\allegro-game\sizeablesquare.cpp
+	"SizeableSquare.h"
+	"Square.h"
+
+1591782049 source:c:\users\valer\desktop\gitsave\allegro-game\square.cpp
+	"Square.h"
+	"Figure.h"
+	"AllegroBase.hpp"
+	<iostream>
+

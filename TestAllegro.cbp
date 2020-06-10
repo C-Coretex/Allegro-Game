@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="TestAllegro" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/TestAllegro" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="C:/Program Files/CodeBlocks20/MinGW/include" />
+					<Add directory="include" />
+					<Add directory="../TestAllegro" />
+				</Compiler>
+				<Linker>
+					<Add library="C:/Program Files/CodeBlocks20/MinGW/lib/liballegro.dll.a" />
+					<Add library="C:/Program Files/CodeBlocks20/MinGW/lib/liballegro_primitives.dll.a" />
+					<Add directory="C:/Program Files/CodeBlocks20/MinGW/bin" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/TestAllegro" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+					<Add directory="../TestAllegro" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="C:/codeblocks/MinGW/lib/liballegro_primitives.dll.a" />
+					<Add library="C:/codeblocks/MinGW/lib/liballegro.dll.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="AlegroApp.cpp" />
+		<Unit filename="AlegroApp.h" />
+		<Unit filename="AllegroBase.cpp" />
+		<Unit filename="AllegroBase.hpp" />
+		<Unit filename="AllegroUtil.cpp" />
+		<Unit filename="AllegroUtil.hpp" />
+		<Unit filename="Circle.cpp" />
+		<Unit filename="Circle.h" />
+		<Unit filename="ControlledSquare.cpp" />
+		<Unit filename="ControlledSquare.h" />
+		<Unit filename="Figure.cpp" />
+		<Unit filename="Figure.h" />
+		<Unit filename="FigureFactory.cpp" />
+		<Unit filename="FigureFactory.h" />
+		<Unit filename="ISerializable.cpp" />
+		<Unit filename="ISerializable.h" />
+		<Unit filename="ScreenSaver.cpp" />
+		<Unit filename="ScreenSaver.h" />
+		<Unit filename="SizeableFigure.cpp" />
+		<Unit filename="SizeableFigure.h" />
+		<Unit filename="SizeableSquare.cpp" />
+		<Unit filename="SizeableSquare.h" />
+		<Unit filename="Square.cpp" />
+		<Unit filename="Square.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
