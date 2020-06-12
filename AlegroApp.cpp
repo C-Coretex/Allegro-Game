@@ -4,7 +4,8 @@
 #include "SizeableSquare.h"
 #include "FigureFactory.h"
 #include <iostream>
-#include <list>
+#include <vector>
+#include <fstream>
 
 AlegroApp::AlegroApp() :
     AllegroBase(),
@@ -34,7 +35,7 @@ int AlegroApp::dash = 20;
 AlegroApp::~AlegroApp()
 {}
 
-list <Figure*>::iterator it;
+vector <Figure*>::iterator it;
 
 void AlegroApp::Fps()
 {
@@ -92,9 +93,29 @@ void AlegroApp::OnKeyDown( const ALLEGRO_KEYBOARD_EVENT &keyboard )
     }
     else if ( keyboard.keycode == ALLEGRO_KEY_P )
     {
+        ofstream outfile;
+
+        outfile.open("Objects.txt");
+
         for(it = ScreenSaver::Instance().figures.begin(); it != ScreenSaver::Instance().figures.end(); ++it)
         {
-            cout << (*it)->Serialize() << endl;
+            string temp = (*it)->Serialize();
+            cout << temp << endl;
+            outfile << temp << endl;
+        }
+    }
+    else if(keyboard.keycode == ALLEGRO_KEY_D)
+    {
+        ifstream infile;
+
+        infile.open("Objects.txt");
+
+        string temp;
+        ScreenSaver::Instance().ClearAll();
+        while(std::getline(infile, temp))
+        {
+            cout << temp << endl;
+            ScreenSaver::Instance().Add(FigureFactory::Deserialize(temp));
         }
     }
     else if ( keyboard.keycode == ALLEGRO_KEY_ENTER )

@@ -2,7 +2,7 @@
 #include "Figure.h"
 #include "AllegroBase.hpp"
 #include "AlegroApp.h"
-#include <list>
+#include <vector>
 
 ScreenSaver &ScreenSaver::Instance()
 {
@@ -35,7 +35,7 @@ void ScreenSaver::Next()
     for(it = figures.begin(); it != figures.end(); ++it)
     {
         (*it)->Move();
-        for(list <PFigure>::iterator it2 = figures.begin(); it2 != figures.end(); ++it2)
+        for(vector <PFigure>::iterator it2 = figures.begin(); it2 != figures.end(); ++it2)
         {
             if(it2 == it)
                 continue;
@@ -66,4 +66,14 @@ void ScreenSaver::Reset()
         (*it)->Reset();
     }
     AlegroApp::dash = 20;
+}
+
+void ScreenSaver::ClearAll()
+{
+    for(it = figures.begin(); it != figures.end(); ++it)
+    {
+        (*it)->~Figure();
+    }
+    AlegroApp::dash = 20;
+    figures.clear();
 }

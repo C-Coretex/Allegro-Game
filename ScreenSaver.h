@@ -1,6 +1,6 @@
 #pragma once
 #include "Figure.h"
-#include <list>
+#include <vector>
 
 class ScreenSaver
 {
@@ -10,12 +10,13 @@ class ScreenSaver
         void Next();
         void Add( Figure *f );
         void Reset();
+        void ClearAll();
         typedef Figure * PFigure;
-        list<PFigure> figures;
+        vector<PFigure> figures;
     protected:
 
     private:
         ScreenSaver();
         virtual ~ScreenSaver();
-        list <PFigure>::iterator it;
+        vector <PFigure>::iterator it;
 };

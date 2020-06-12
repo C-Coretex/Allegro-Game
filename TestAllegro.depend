@@ -437,14 +437,15 @@
 1591777731 c:\users\valer\desktop\programming\c++\paint\testallegro\iserializable.h
 	<string>
 
-1591783337 source:c:\users\valer\desktop\gitsave\allegro-game\alegroapp.cpp
+1591951605 source:c:\users\valer\desktop\gitsave\allegro-game\alegroapp.cpp
 	"AlegroApp.h"
 	"AllegroBase.hpp"
 	"ScreenSaver.h"
 	"SizeableSquare.h"
 	"FigureFactory.h"
 	<iostream>
-	<list>
+	<vector>
+	<fstream>
 
 1591778575 c:\users\valer\desktop\gitsave\allegro-game\alegroapp.h
 	"AllegroBase.hpp"
@@ -467,9 +468,9 @@
 1591777731 c:\users\valer\desktop\gitsave\allegro-game\iserializable.h
 	<string>
 
-1591783398 c:\users\valer\desktop\gitsave\allegro-game\screensaver.h
+1591951446 c:\users\valer\desktop\gitsave\allegro-game\screensaver.h
 	"Figure.h"
-	<list>
+	<vector>
 
 1591351555 c:\users\valer\desktop\gitsave\allegro-game\sizeablesquare.h
 	"SizeableFigure.h"
@@ -494,11 +495,12 @@
 	<allegro5/allegro.h>
 	<allegro5/allegro_primitives.h>
 
-1591781787 source:c:\users\valer\desktop\gitsave\allegro-game\circle.cpp
+1591951992 source:c:\users\valer\desktop\gitsave\allegro-game\circle.cpp
 	"Circle.h"
 	"Figure.h"
 	<stdlib.h>
 	"AllegroBase.hpp"
+	"iostream"
 
 1591779819 c:\users\valer\desktop\gitsave\allegro-game\circle.h
 	"Figure.h"
@@ -513,7 +515,7 @@
 	"Figure.h"
 	<stdlib.h>
 
-1591781613 source:c:\users\valer\desktop\gitsave\allegro-game\figurefactory.cpp
+1591951886 source:c:\users\valer\desktop\gitsave\allegro-game\figurefactory.cpp
 	"FigureFactory.h"
 	"Figure.h"
 	"Circle.h"
@@ -528,12 +530,12 @@
 	<iostream>
 	"AlegroApp.h"
 
-1591783405 source:c:\users\valer\desktop\gitsave\allegro-game\screensaver.cpp
+1591951764 source:c:\users\valer\desktop\gitsave\allegro-game\screensaver.cpp
 	"ScreenSaver.h"
 	"Figure.h"
 	"AllegroBase.hpp"
 	"AlegroApp.h"
-	<list>
+	<vector>
 
 1591350380 source:c:\users\valer\desktop\gitsave\allegro-game\sizeablefigure.cpp
 	"SizeableFigure.h"
@@ -542,7 +544,7 @@
 	"SizeableSquare.h"
 	"Square.h"
 
-1591782049 source:c:\users\valer\desktop\gitsave\allegro-game\square.cpp
+1591951992 source:c:\users\valer\desktop\gitsave\allegro-game\square.cpp
 	"Square.h"
 	"Figure.h"
 	"AllegroBase.hpp"

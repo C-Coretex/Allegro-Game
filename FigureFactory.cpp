@@ -19,19 +19,24 @@ Figure *FigureFactory::Create( Type type)
 
 Figure *FigureFactory::Deserialize(string object)
 {
-    getline(std::cin, object);
-
-    string sub = object.substr(0, object.find(":"));
-    if(sub == "Square")
+    try
     {
-        Square *sq = new Square( 10.0 + rand() % 30, 0, 100, 200 );
-        sq->Deserialize(object);
-        return sq;
+        string sub = object.substr(0, object.find(":"));
+        if(sub == "Square")
+        {
+            Square *sq = new Square( 10.0 + rand() % 30, 0, 100, 200 );
+            sq->Deserialize(object);
+            return sq;
+        }
+        else if(sub == "Circle")
+        {
+            Circle *cr = new Circle( 10.0 + rand() % 30, 150, 150, 150);
+            cr->Deserialize(object);
+            return cr;
+        }
     }
-    else if(sub == "Circle")
+    catch(exception ex)
     {
-        Circle *cr = new Circle( 10.0 + rand() % 30, 150, 150, 150);
-        cr->Deserialize(object);
-        return cr;
+        cout << "Ti sto sdelal-_-" << endl;
     }
 }
