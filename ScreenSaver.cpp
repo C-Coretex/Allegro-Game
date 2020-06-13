@@ -3,6 +3,8 @@
 #include "AllegroBase.hpp"
 #include "AlegroApp.h"
 #include <vector>
+#include <iostream>
+#include <unistd.h>
 
 ScreenSaver &ScreenSaver::Instance()
 {
@@ -37,10 +39,13 @@ void ScreenSaver::Next()
         (*it)->Move();
         for(vector <PFigure>::iterator it2 = figures.begin(); it2 != figures.end(); ++it2)
         {
-            if(it2 == it)
+
+            if(*it2 == *it)
+            {
                 continue;
-            if((abs((*it2)->x_ - (*it)->x_) <= (*it2)->safeSpace + (*it)->safeSpace)
-               && (abs((*it2)->y_ - (*it)->y_) <= (*it2)->safeSpace + (*it)->safeSpace))
+            }
+
+            if(**it == **it2)
             {
                 int tempDX = (*it)->dx_;
                 int tempDY = (*it)->dy_;

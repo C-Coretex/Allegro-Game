@@ -2,6 +2,7 @@
 #include "Figure.h"
 #include "AllegroBase.hpp"
 #include <iostream>
+#include <cmath>
 
 Square::Square( double a, unsigned char R, unsigned char G, unsigned char B) :
         Figure(1200, 1000),
@@ -10,7 +11,7 @@ Square::Square( double a, unsigned char R, unsigned char G, unsigned char B) :
         color_G( G ),
         color_B( B )
     {
-        safeSpace = a_/2;
+        safeSpace = (a_*sqrt(2))/2;
     }
 
 void Square::Draw()

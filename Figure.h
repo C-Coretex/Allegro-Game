@@ -19,6 +19,8 @@ class Figure: ISerializable
 
         virtual string Serialize() = 0;
         virtual void Deserialize(string object) = 0;
+
+        bool operator== (const Figure &other) const;
     protected:
 
     private:

@@ -42,8 +42,7 @@ void AlegroApp::Fps()
     ScreenSaver::Instance().Next();
 
     for(it = ScreenSaver::Instance().figures.begin(); it != ScreenSaver::Instance().figures.end(); ++it)
-        if(((abs((*it)->x_ - humanSquare_.x_) <= (*it)->safeSpace + humanSquare_.safeSpace)
-            && abs((*it)->y_ - humanSquare_.y_) <= (*it)->safeSpace + humanSquare_.safeSpace))
+        if(**it == humanSquare_)
             ScreenSaver::Instance().Reset();
 
     double dx = 0, dy = 0;

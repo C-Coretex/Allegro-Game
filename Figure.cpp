@@ -1,5 +1,6 @@
 #include "Figure.h"
 #include <stdlib.h>
+#include <cmath>
 
 Figure::Figure(int SCREEN_W_, int SCREEN_H_):
     SCREEN_W(SCREEN_W_),
@@ -26,4 +27,15 @@ void Figure::Move()
         dx_ *= -1;
     if( (y_ + safeSpace < 1.0 ) || ( y_ - safeSpace > SCREEN_H ) )
         dy_ *= -1;
+}
+
+bool Figure::operator== (const Figure &other) const
+{
+    double dx = (other.x_ - x_)*(other.x_ - x_);
+    double dy = (other.y_ - y_)*(other.y_ - y_);
+
+    if((sqrt(dx+dy) - (other.safeSpace + safeSpace) <= 0.001))
+        return true;
+    else
+        return false;
 }
